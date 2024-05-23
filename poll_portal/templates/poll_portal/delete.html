@@ -1,0 +1,11 @@
+{% extends 'poll_portal/base.html '%}
+<Head>
+    <title>Delete Poll</title>
+</Head>
+    <h1>Are you sure you want to delete the poll "{{ poll.question }}"?</h1>
+    <form action="{% url 'delete_poll' poll.id %}" method="post">
+        {% csrf_token %}
+        <button type="submit">Yes, delete</button>
+        <a href="{% url 'polls:detail' poll.id %}">Cancel</a>
+    </form>
+    
