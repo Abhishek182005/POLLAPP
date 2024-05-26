@@ -1,3 +1,5 @@
+# POLL APP USING DJANGO
+<br>
 It is my 2nd Porject of Django based on polling. This webite makes user to create, give vote and delete the poll.<br>
 The code is made with the reference of a website . For deletion it may appear the button have deleted all the poll but to proceed you need to <br>
 click on the Home panel to see. 
